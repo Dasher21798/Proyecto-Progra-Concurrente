@@ -29,7 +29,7 @@ public class Proyecto {
         
                             
 
-Autobus autobus = crearAutobus();
+    Autobus autobus = crearAutobus();
 
         System.out.println("Datos del autobús creado:");
         System.out.println(autobus);
@@ -41,8 +41,29 @@ Autobus autobus = crearAutobus();
 
     public static Autobus crearAutobus() {
         Scanner SC = new Scanner(System.in);
-
-        System.out.println("Ingrese el nombre de la última parada del autobús:");
+        
+         System.out.println("1) Ciudad Deportiva Rafael Ángel Pérez");
+         System.out.println("2) Super Lian, Hatillo");
+         System.out.println("3) Plásticos Tosso");
+         System.out.println("4) Parqueo De Yamuni, San Francisco");
+         System.out.println("5) Colegio María Auxiliadora");
+         System.out.println("6) Escuela Juan Rafael Mora");
+         System.out.println("7) Hotel Caribbean, Amón");
+         System.out.println("8) Parque San Francisco");
+         System.out.println("9) Liceo Nocturno José Joaquín Jiménez Nuñez");
+         System.out.println("10) Acueductos Y Alcantarillados Guadalupe");
+         System.out.println("11) Rotonda De Betania");
+         System.out.println("12) Colegio Salesiano Don Bosco");
+         System.out.println("13) Escuela República Dominicana");
+         System.out.println("14) Abastecedor Los Sauces");
+         System.out.println("15) Parque De Monte Azul");
+         System.out.println("16) Cevichería Costa Azul");
+         System.out.println("17) Taller Gernon");
+         System.out.println("18) Plaza América");
+         System.out.println("19) Rest. La Fortuna, Hatillo 4");
+         System.out.println("20) Terminal Hatillo");
+         
+                System.out.println("Ingrese el nombre de la última parada del autobús:");
         String nombreParada = SC.nextLine();
 
         // Generar el resto de los datos automáticamente, menos pasajeros que inicia desde 0
